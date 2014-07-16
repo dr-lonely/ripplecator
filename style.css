@@ -359,9 +359,9 @@ h2 {
 }
 .scene {
   position: relative;
-  top: 50%;
+  top: 50px;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
 }
