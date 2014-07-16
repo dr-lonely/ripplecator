@@ -17,7 +17,7 @@ body {
   background-image: linear-gradient(#d7e1eb, #bbc3ce);
   background-size:cover;
   color: #393936;
-  margin: 20px;
+  padding: 20px;
   text-align: center;
 }
 .heading {
