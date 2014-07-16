@@ -33,7 +33,12 @@
       }, 1500);
       event.preventDefault();
     });
-    
+var _clone=$('.layer');
+var _target=$('.scene'); //this is target
+
+for(var i=1;i<9;i++){
+    _target.append(_clone.clone(true)); //append target, clone every time
+}    
   });
   
 })(window, jQuery);
@@ -47,7 +52,12 @@
 </head>
 
 <body>
-<div class="heading text-center">RippleCator<div class="small">google material inspired</div></div>
+<div class="heading text-center">
+	<div class="scene">
+  		<div class="layer">RippleCator</div>
+	</div>
+	<div class="small">inspired by Google paper effect</div>
+</div>
 <h2>Can be any tag</h2>
 <a data-ripplecator class='ripple-btn dark-ripples' href='#'><span>a tag</span></a>
 <button data-ripplecator type="button" class="ripple-btn dark-ripples"><span>type=&quot;button&quot;</span></button>
