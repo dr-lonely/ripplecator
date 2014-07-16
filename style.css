@@ -6,16 +6,17 @@ html {
 }
 html {
   height: 100%;
-}
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d7e1eb), to(#bbc3ce));
+  background-image: -webkit-linear-gradient(#d7e1eb, #bbc3ce);
+  background-image: linear-gradient(#d7e1eb, #bbc3ce);
+  background-size:cover;
+    }
 body {
   font-family: 'Fira Sans', sans-serif;
   height: 100%;
   overflow:hidden;
   font-size: 14px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#d7e1eb), to(#bbc3ce));
-  background-image: -webkit-linear-gradient(#d7e1eb, #bbc3ce);
-  background-image: linear-gradient(#d7e1eb, #bbc3ce);
-  background-size:cover;
+
   color: #393936;
   padding: 20px;
   text-align: center;
