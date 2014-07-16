@@ -10,11 +10,12 @@ html {
 body {
   font-family: 'Fira Sans', sans-serif;
   height: 100%;
+  overflow:hidden;
   font-size: 14px;
-  background-color: #f9f9f9;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#d7e1eb), to(#bbc3ce));
   background-image: -webkit-linear-gradient(#d7e1eb, #bbc3ce);
   background-image: linear-gradient(#d7e1eb, #bbc3ce);
+  background-size:cover;
   color: #393936;
   margin: 20px;
   text-align: center;
